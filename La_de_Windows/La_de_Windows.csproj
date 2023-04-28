@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+ 
     <None Remove="img1.jpg" />
     <None Remove="img2.jpg" />
   </ItemGroup>
@@ -16,6 +17,7 @@
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
+	<Folder Include="Images\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +25,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="cr.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="cw.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\cr.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\cw.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="img1.jpg" />
     <Resource Include="img2.jpg" />
   </ItemGroup>
