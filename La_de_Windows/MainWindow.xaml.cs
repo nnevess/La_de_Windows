@@ -31,11 +31,11 @@ namespace La_de_Windows
             Visibility = Visibility.Hidden;
             objEditarCiudad.Show();
         }
-
+        /*
         private void BtnClose_Click(object sender, RoutedEventArgs e)
         {
             Close();
-        }
+        }*/
     }
 
 }

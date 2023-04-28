@@ -64,11 +64,11 @@
             <!--<Image HorizontalAlignment="Left" Height="359" Margin="275,44,0,0" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" Source="/img2.jpg" Stretch="UniformToFill" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>-->
         </StackPanel>
 
-        <StackPanel Grid.Row="0" Grid.Column="2">
+        <!--<StackPanel Grid.Row="0" Grid.Column="2">
             <Button x:Name="BtnClose"
                         Cursor="Hand"
                         Style="{StaticResource ButtonCloseStyle}"
                         Click="BtnClose_Click"/>
-        </StackPanel>
+        </StackPanel>-->
     </Grid>
 </Window>

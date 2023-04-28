@@ -25,11 +25,11 @@
             <Button Content="Agregar Ciudad" Margin="30,538,31,26" Background="#FF006DFF" Click="OpenWindow"/>
         </Border>
 
-        <StackPanel Grid.Row="0" Grid.Column="1">
+        <!--<StackPanel Grid.Row="0" Grid.Column="1">
             <Button x:Name="BtnClose"
                         Cursor="Hand"
                         Style="{StaticResource ButtonCloseStyle}"
                         Click="BtnClose_Click"/>
-        </StackPanel>
+        </StackPanel>-->
     </Grid>
 </Window>

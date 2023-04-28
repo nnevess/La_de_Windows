@@ -52,10 +52,10 @@ namespace La_de_Windows
                 MessageBox.Show(error.Message);
             }
         }
-
+        /*
         private void BtnClose_Click(object sender, RoutedEventArgs e)
         {
             Close();
-        }
+        }*/
     }
 }
